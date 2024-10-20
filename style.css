@@ -1,0 +1,113 @@
+body {
+  background-image: url(../bookshelf-app-starter-project/img/background.png);
+  background-repeat: repeat-y;
+  background-size: contain;
+  margin: 0;
+  background-color: rgb(228, 242, 255);
+  color: #fff;
+}
+#header {
+  background-color: rgb(84, 88, 190);
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 1rem;
+}
+#tambahBuku,
+#cariBuku,
+#undoBuku,
+#completeBuku {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem;
+  flex-direction: column;
+  margin-top: 2rem;
+  width: 50vw;
+  background-color: rgb(84, 88, 190);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px 15px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+#bookForm {
+  margin-top: 1rem;
+}
+#searchBook {
+  margin-top: 1rem;
+  width: 40vw;
+  display: flex;
+  justify-content: space-around;
+}
+.label-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+.checkbox-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: 40vw;
+}
+.kotak {
+  width: 30vw;
+  padding: 5px;
+  border-radius: 5px;
+}
+.bookFormIsComplete {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+  text-align: center;
+  align-items: center;
+}
+#bookFormSubmit {
+  width: 40vw;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(245, 245, 248);
+}
+#bookFormSubmit:hover {
+  background-color: rgb(197, 196, 186);
+}
+#searchSubmit {
+  min-width: 1vw;
+  background-color: rgb(245, 245, 248);
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#searchSubmit:hover {
+  background-color: rgb(197, 196, 186);
+}
+.btn {
+  min-width: 20px;
+  color: rgb(84, 88, 190);
+  padding: 8px;
+  border-radius: 10px ;
+  border-color: rgb(84, 88, 190);
+  border-width: 3px;
+  cursor: pointer;
+  margin: 7px;
+}
+.btn:hover {
+  background-color: rgb(197, 196, 186);
+  color: rgb(84, 88, 190);
+}
+.containerBookList {
+  background-color: rgb(228, 242, 255);
+  width: 40vw;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(84, 88, 190);
+}
